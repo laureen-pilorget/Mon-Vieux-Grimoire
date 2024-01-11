@@ -55,7 +55,7 @@ function BookRatingForm({
 BookRatingForm.propTypes = {
   rating: PropTypes.number.isRequired,
   setRating: PropTypes.func.isRequired,
-  userId: PropTypes.string,
+  userId: PropTypes.string.isRequired,
   setBook: PropTypes.func.isRequired,
   id: PropTypes.string.isRequired,
   userRated: PropTypes.bool.isRequired,
